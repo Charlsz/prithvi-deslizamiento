@@ -1,0 +1,651 @@
+{
+  "seed": 20261117,
+  "repo": "sasmit545/Landslide4sense",
+  "revision": "8508a55feceb5653a085d6be64ef9217710f7c00",
+  "selection": "Muestreo uniforme de nombres, sin leer imágenes ni etiquetas; excluye las seis escenas previas.",
+  "samples": {
+    "train": [
+      {
+        "image": "images/train/image_1017.h5",
+        "label": "annotations/train/mask_1017.h5"
+      },
+      {
+        "image": "images/train/image_1032.h5",
+        "label": "annotations/train/mask_1032.h5"
+      },
+      {
+        "image": "images/train/image_1147.h5",
+        "label": "annotations/train/mask_1147.h5"
+      },
+      {
+        "image": "images/train/image_1157.h5",
+        "label": "annotations/train/mask_1157.h5"
+      },
+      {
+        "image": "images/train/image_1163.h5",
+        "label": "annotations/train/mask_1163.h5"
+      },
+      {
+        "image": "images/train/image_120.h5",
+        "label": "annotations/train/mask_120.h5"
+      },
+      {
+        "image": "images/train/image_122.h5",
+        "label": "annotations/train/mask_122.h5"
+      },
+      {
+        "image": "images/train/image_1222.h5",
+        "label": "annotations/train/mask_1222.h5"
+      },
+      {
+        "image": "images/train/image_1301.h5",
+        "label": "annotations/train/mask_1301.h5"
+      },
+      {
+        "image": "images/train/image_135.h5",
+        "label": "annotations/train/mask_135.h5"
+      },
+      {
+        "image": "images/train/image_1418.h5",
+        "label": "annotations/train/mask_1418.h5"
+      },
+      {
+        "image": "images/train/image_142.h5",
+        "label": "annotations/train/mask_142.h5"
+      },
+      {
+        "image": "images/train/image_143.h5",
+        "label": "annotations/train/mask_143.h5"
+      },
+      {
+        "image": "images/train/image_1475.h5",
+        "label": "annotations/train/mask_1475.h5"
+      },
+      {
+        "image": "images/train/image_152.h5",
+        "label": "annotations/train/mask_152.h5"
+      },
+      {
+        "image": "images/train/image_1573.h5",
+        "label": "annotations/train/mask_1573.h5"
+      },
+      {
+        "image": "images/train/image_1614.h5",
+        "label": "annotations/train/mask_1614.h5"
+      },
+      {
+        "image": "images/train/image_1648.h5",
+        "label": "annotations/train/mask_1648.h5"
+      },
+      {
+        "image": "images/train/image_1653.h5",
+        "label": "annotations/train/mask_1653.h5"
+      },
+      {
+        "image": "images/train/image_1660.h5",
+        "label": "annotations/train/mask_1660.h5"
+      },
+      {
+        "image": "images/train/image_1663.h5",
+        "label": "annotations/train/mask_1663.h5"
+      },
+      {
+        "image": "images/train/image_1692.h5",
+        "label": "annotations/train/mask_1692.h5"
+      },
+      {
+        "image": "images/train/image_1774.h5",
+        "label": "annotations/train/mask_1774.h5"
+      },
+      {
+        "image": "images/train/image_1788.h5",
+        "label": "annotations/train/mask_1788.h5"
+      },
+      {
+        "image": "images/train/image_1828.h5",
+        "label": "annotations/train/mask_1828.h5"
+      },
+      {
+        "image": "images/train/image_184.h5",
+        "label": "annotations/train/mask_184.h5"
+      },
+      {
+        "image": "images/train/image_1850.h5",
+        "label": "annotations/train/mask_1850.h5"
+      },
+      {
+        "image": "images/train/image_1893.h5",
+        "label": "annotations/train/mask_1893.h5"
+      },
+      {
+        "image": "images/train/image_1911.h5",
+        "label": "annotations/train/mask_1911.h5"
+      },
+      {
+        "image": "images/train/image_197.h5",
+        "label": "annotations/train/mask_197.h5"
+      },
+      {
+        "image": "images/train/image_1977.h5",
+        "label": "annotations/train/mask_1977.h5"
+      },
+      {
+        "image": "images/train/image_1988.h5",
+        "label": "annotations/train/mask_1988.h5"
+      },
+      {
+        "image": "images/train/image_1992.h5",
+        "label": "annotations/train/mask_1992.h5"
+      },
+      {
+        "image": "images/train/image_2038.h5",
+        "label": "annotations/train/mask_2038.h5"
+      },
+      {
+        "image": "images/train/image_2069.h5",
+        "label": "annotations/train/mask_2069.h5"
+      },
+      {
+        "image": "images/train/image_2111.h5",
+        "label": "annotations/train/mask_2111.h5"
+      },
+      {
+        "image": "images/train/image_2115.h5",
+        "label": "annotations/train/mask_2115.h5"
+      },
+      {
+        "image": "images/train/image_2137.h5",
+        "label": "annotations/train/mask_2137.h5"
+      },
+      {
+        "image": "images/train/image_2219.h5",
+        "label": "annotations/train/mask_2219.h5"
+      },
+      {
+        "image": "images/train/image_2227.h5",
+        "label": "annotations/train/mask_2227.h5"
+      },
+      {
+        "image": "images/train/image_2255.h5",
+        "label": "annotations/train/mask_2255.h5"
+      },
+      {
+        "image": "images/train/image_2273.h5",
+        "label": "annotations/train/mask_2273.h5"
+      },
+      {
+        "image": "images/train/image_2277.h5",
+        "label": "annotations/train/mask_2277.h5"
+      },
+      {
+        "image": "images/train/image_2336.h5",
+        "label": "annotations/train/mask_2336.h5"
+      },
+      {
+        "image": "images/train/image_2437.h5",
+        "label": "annotations/train/mask_2437.h5"
+      },
+      {
+        "image": "images/train/image_2450.h5",
+        "label": "annotations/train/mask_2450.h5"
+      },
+      {
+        "image": "images/train/image_251.h5",
+        "label": "annotations/train/mask_251.h5"
+      },
+      {
+        "image": "images/train/image_2525.h5",
+        "label": "annotations/train/mask_2525.h5"
+      },
+      {
+        "image": "images/train/image_2548.h5",
+        "label": "annotations/train/mask_2548.h5"
+      },
+      {
+        "image": "images/train/image_2565.h5",
+        "label": "annotations/train/mask_2565.h5"
+      },
+      {
+        "image": "images/train/image_2599.h5",
+        "label": "annotations/train/mask_2599.h5"
+      },
+      {
+        "image": "images/train/image_263.h5",
+        "label": "annotations/train/mask_263.h5"
+      },
+      {
+        "image": "images/train/image_272.h5",
+        "label": "annotations/train/mask_272.h5"
+      },
+      {
+        "image": "images/train/image_2755.h5",
+        "label": "annotations/train/mask_2755.h5"
+      },
+      {
+        "image": "images/train/image_2756.h5",
+        "label": "annotations/train/mask_2756.h5"
+      },
+      {
+        "image": "images/train/image_2780.h5",
+        "label": "annotations/train/mask_2780.h5"
+      },
+      {
+        "image": "images/train/image_28.h5",
+        "label": "annotations/train/mask_28.h5"
+      },
+      {
+        "image": "images/train/image_2852.h5",
+        "label": "annotations/train/mask_2852.h5"
+      },
+      {
+        "image": "images/train/image_2949.h5",
+        "label": "annotations/train/mask_2949.h5"
+      },
+      {
+        "image": "images/train/image_2992.h5",
+        "label": "annotations/train/mask_2992.h5"
+      },
+      {
+        "image": "images/train/image_3007.h5",
+        "label": "annotations/train/mask_3007.h5"
+      },
+      {
+        "image": "images/train/image_3091.h5",
+        "label": "annotations/train/mask_3091.h5"
+      },
+      {
+        "image": "images/train/image_3093.h5",
+        "label": "annotations/train/mask_3093.h5"
+      },
+      {
+        "image": "images/train/image_3123.h5",
+        "label": "annotations/train/mask_3123.h5"
+      },
+      {
+        "image": "images/train/image_3134.h5",
+        "label": "annotations/train/mask_3134.h5"
+      },
+      {
+        "image": "images/train/image_3157.h5",
+        "label": "annotations/train/mask_3157.h5"
+      },
+      {
+        "image": "images/train/image_3160.h5",
+        "label": "annotations/train/mask_3160.h5"
+      },
+      {
+        "image": "images/train/image_3171.h5",
+        "label": "annotations/train/mask_3171.h5"
+      },
+      {
+        "image": "images/train/image_3192.h5",
+        "label": "annotations/train/mask_3192.h5"
+      },
+      {
+        "image": "images/train/image_3229.h5",
+        "label": "annotations/train/mask_3229.h5"
+      },
+      {
+        "image": "images/train/image_3240.h5",
+        "label": "annotations/train/mask_3240.h5"
+      },
+      {
+        "image": "images/train/image_3283.h5",
+        "label": "annotations/train/mask_3283.h5"
+      },
+      {
+        "image": "images/train/image_3296.h5",
+        "label": "annotations/train/mask_3296.h5"
+      },
+      {
+        "image": "images/train/image_3336.h5",
+        "label": "annotations/train/mask_3336.h5"
+      },
+      {
+        "image": "images/train/image_3354.h5",
+        "label": "annotations/train/mask_3354.h5"
+      },
+      {
+        "image": "images/train/image_3403.h5",
+        "label": "annotations/train/mask_3403.h5"
+      },
+      {
+        "image": "images/train/image_3407.h5",
+        "label": "annotations/train/mask_3407.h5"
+      },
+      {
+        "image": "images/train/image_3408.h5",
+        "label": "annotations/train/mask_3408.h5"
+      },
+      {
+        "image": "images/train/image_3417.h5",
+        "label": "annotations/train/mask_3417.h5"
+      },
+      {
+        "image": "images/train/image_3426.h5",
+        "label": "annotations/train/mask_3426.h5"
+      },
+      {
+        "image": "images/train/image_3480.h5",
+        "label": "annotations/train/mask_3480.h5"
+      },
+      {
+        "image": "images/train/image_3523.h5",
+        "label": "annotations/train/mask_3523.h5"
+      },
+      {
+        "image": "images/train/image_3535.h5",
+        "label": "annotations/train/mask_3535.h5"
+      },
+      {
+        "image": "images/train/image_3645.h5",
+        "label": "annotations/train/mask_3645.h5"
+      },
+      {
+        "image": "images/train/image_3673.h5",
+        "label": "annotations/train/mask_3673.h5"
+      },
+      {
+        "image": "images/train/image_3769.h5",
+        "label": "annotations/train/mask_3769.h5"
+      },
+      {
+        "image": "images/train/image_380.h5",
+        "label": "annotations/train/mask_380.h5"
+      },
+      {
+        "image": "images/train/image_392.h5",
+        "label": "annotations/train/mask_392.h5"
+      },
+      {
+        "image": "images/train/image_443.h5",
+        "label": "annotations/train/mask_443.h5"
+      },
+      {
+        "image": "images/train/image_446.h5",
+        "label": "annotations/train/mask_446.h5"
+      },
+      {
+        "image": "images/train/image_503.h5",
+        "label": "annotations/train/mask_503.h5"
+      },
+      {
+        "image": "images/train/image_543.h5",
+        "label": "annotations/train/mask_543.h5"
+      },
+      {
+        "image": "images/train/image_593.h5",
+        "label": "annotations/train/mask_593.h5"
+      },
+      {
+        "image": "images/train/image_612.h5",
+        "label": "annotations/train/mask_612.h5"
+      },
+      {
+        "image": "images/train/image_797.h5",
+        "label": "annotations/train/mask_797.h5"
+      },
+      {
+        "image": "images/train/image_80.h5",
+        "label": "annotations/train/mask_80.h5"
+      }
+    ],
+    "validation": [
+      {
+        "image": "images/validation/image_101.h5",
+        "label": "annotations/validation/mask_101.h5"
+      },
+      {
+        "image": "images/validation/image_108.h5",
+        "label": "annotations/validation/mask_108.h5"
+      },
+      {
+        "image": "images/validation/image_115.h5",
+        "label": "annotations/validation/mask_115.h5"
+      },
+      {
+        "image": "images/validation/image_161.h5",
+        "label": "annotations/validation/mask_161.h5"
+      },
+      {
+        "image": "images/validation/image_175.h5",
+        "label": "annotations/validation/mask_175.h5"
+      },
+      {
+        "image": "images/validation/image_199.h5",
+        "label": "annotations/validation/mask_199.h5"
+      },
+      {
+        "image": "images/validation/image_2.h5",
+        "label": "annotations/validation/mask_2.h5"
+      },
+      {
+        "image": "images/validation/image_20.h5",
+        "label": "annotations/validation/mask_20.h5"
+      },
+      {
+        "image": "images/validation/image_200.h5",
+        "label": "annotations/validation/mask_200.h5"
+      },
+      {
+        "image": "images/validation/image_205.h5",
+        "label": "annotations/validation/mask_205.h5"
+      },
+      {
+        "image": "images/validation/image_21.h5",
+        "label": "annotations/validation/mask_21.h5"
+      },
+      {
+        "image": "images/validation/image_233.h5",
+        "label": "annotations/validation/mask_233.h5"
+      },
+      {
+        "image": "images/validation/image_235.h5",
+        "label": "annotations/validation/mask_235.h5"
+      },
+      {
+        "image": "images/validation/image_241.h5",
+        "label": "annotations/validation/mask_241.h5"
+      },
+      {
+        "image": "images/validation/image_243.h5",
+        "label": "annotations/validation/mask_243.h5"
+      },
+      {
+        "image": "images/validation/image_245.h5",
+        "label": "annotations/validation/mask_245.h5"
+      },
+      {
+        "image": "images/validation/image_3.h5",
+        "label": "annotations/validation/mask_3.h5"
+      },
+      {
+        "image": "images/validation/image_33.h5",
+        "label": "annotations/validation/mask_33.h5"
+      },
+      {
+        "image": "images/validation/image_55.h5",
+        "label": "annotations/validation/mask_55.h5"
+      },
+      {
+        "image": "images/validation/image_60.h5",
+        "label": "annotations/validation/mask_60.h5"
+      },
+      {
+        "image": "images/validation/image_67.h5",
+        "label": "annotations/validation/mask_67.h5"
+      },
+      {
+        "image": "images/validation/image_91.h5",
+        "label": "annotations/validation/mask_91.h5"
+      },
+      {
+        "image": "images/validation/image_92.h5",
+        "label": "annotations/validation/mask_92.h5"
+      },
+      {
+        "image": "images/validation/image_95.h5",
+        "label": "annotations/validation/mask_95.h5"
+      }
+    ],
+    "test": [
+      {
+        "image": "images/test/image_12.h5",
+        "label": "annotations/test/mask_12.h5"
+      },
+      {
+        "image": "images/test/image_199.h5",
+        "label": "annotations/test/mask_199.h5"
+      },
+      {
+        "image": "images/test/image_28.h5",
+        "label": "annotations/test/mask_28.h5"
+      },
+      {
+        "image": "images/test/image_380.h5",
+        "label": "annotations/test/mask_380.h5"
+      },
+      {
+        "image": "images/test/image_384.h5",
+        "label": "annotations/test/mask_384.h5"
+      },
+      {
+        "image": "images/test/image_389.h5",
+        "label": "annotations/test/mask_389.h5"
+      },
+      {
+        "image": "images/test/image_396.h5",
+        "label": "annotations/test/mask_396.h5"
+      },
+      {
+        "image": "images/test/image_408.h5",
+        "label": "annotations/test/mask_408.h5"
+      },
+      {
+        "image": "images/test/image_461.h5",
+        "label": "annotations/test/mask_461.h5"
+      },
+      {
+        "image": "images/test/image_509.h5",
+        "label": "annotations/test/mask_509.h5"
+      },
+      {
+        "image": "images/test/image_52.h5",
+        "label": "annotations/test/mask_52.h5"
+      },
+      {
+        "image": "images/test/image_523.h5",
+        "label": "annotations/test/mask_523.h5"
+      },
+      {
+        "image": "images/test/image_526.h5",
+        "label": "annotations/test/mask_526.h5"
+      },
+      {
+        "image": "images/test/image_545.h5",
+        "label": "annotations/test/mask_545.h5"
+      },
+      {
+        "image": "images/test/image_557.h5",
+        "label": "annotations/test/mask_557.h5"
+      },
+      {
+        "image": "images/test/image_571.h5",
+        "label": "annotations/test/mask_571.h5"
+      },
+      {
+        "image": "images/test/image_598.h5",
+        "label": "annotations/test/mask_598.h5"
+      },
+      {
+        "image": "images/test/image_606.h5",
+        "label": "annotations/test/mask_606.h5"
+      },
+      {
+        "image": "images/test/image_609.h5",
+        "label": "annotations/test/mask_609.h5"
+      },
+      {
+        "image": "images/test/image_642.h5",
+        "label": "annotations/test/mask_642.h5"
+      },
+      {
+        "image": "images/test/image_658.h5",
+        "label": "annotations/test/mask_658.h5"
+      },
+      {
+        "image": "images/test/image_661.h5",
+        "label": "annotations/test/mask_661.h5"
+      },
+      {
+        "image": "images/test/image_663.h5",
+        "label": "annotations/test/mask_663.h5"
+      },
+      {
+        "image": "images/test/image_667.h5",
+        "label": "annotations/test/mask_667.h5"
+      },
+      {
+        "image": "images/test/image_677.h5",
+        "label": "annotations/test/mask_677.h5"
+      },
+      {
+        "image": "images/test/image_683.h5",
+        "label": "annotations/test/mask_683.h5"
+      },
+      {
+        "image": "images/test/image_731.h5",
+        "label": "annotations/test/mask_731.h5"
+      },
+      {
+        "image": "images/test/image_751.h5",
+        "label": "annotations/test/mask_751.h5"
+      },
+      {
+        "image": "images/test/image_786.h5",
+        "label": "annotations/test/mask_786.h5"
+      },
+      {
+        "image": "images/test/image_790.h5",
+        "label": "annotations/test/mask_790.h5"
+      },
+      {
+        "image": "images/test/image_791.h5",
+        "label": "annotations/test/mask_791.h5"
+      },
+      {
+        "image": "images/test/image_792.h5",
+        "label": "annotations/test/mask_792.h5"
+      }
+    ]
+  },
+  "head": {
+    "n_estimators": 80,
+    "max_depth": 10,
+    "class_weight": "balanced",
+    "random_state": 42,
+    "n_jobs": 2
+  },
+  "patch_target": "Mayoría de píxeles válidos; empate a fondo; mínimo 50% de validez; parche16",
+  "thresholds": [
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75
+  ],
+  "selection_metric": "F1 de clase positiva, media por escena de validación; desempate por IoU y luego mayor umbral",
+  "evaluation": "Una sola evaluación de test después de guardar el umbral. No cambiar configuración después de evaluar.",
+  "teacher_status": "Ampliación complementaria pendiente de aceptación del tamaño de subconjunto y confirmación de canales, escala, normalización y pesos",
+  "frozen_at_utc": "2026-11-17T23:42:29.846658+00:00"
+}

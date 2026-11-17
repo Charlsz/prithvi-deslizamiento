@@ -1,0 +1,7 @@
+{
+  "checks": "PASS",
+  "test_images": 32,
+  "selection_frozen": true,
+  "no_identical_images_across_splits": true,
+  "scope": "Verificación técnica; no garantiza independencia geográfica ni aprobación docente."
+}

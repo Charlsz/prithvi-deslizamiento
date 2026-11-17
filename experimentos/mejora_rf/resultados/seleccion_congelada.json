@@ -1,0 +1,28 @@
+{
+  "threshold": 0.1,
+  "validation": {
+    "threshold": 0.1,
+    "iou": 0.12609162323554954,
+    "f1": 0.196791514325281,
+    "precision": 0.1583930121527778,
+    "recall": 0.3668656965864925,
+    "defined_f1": 18.0
+  },
+  "majority": 0,
+  "train_patch_classes": {
+    "0": 6074,
+    "1": 70
+  },
+  "train_pixel_classes": {
+    "0": 1532165,
+    "1": 40699
+  },
+  "model": {
+    "repo": "ibm-nasa-geospatial/Prithvi-EO-1.0-100M",
+    "revision": "7b231fe5b0684e2ddd40c967fbc02e225ef77dc6",
+    "checkpoint": "C:\\Users\\Cgalv\\Desktop\\github repositories\\prithvi-deslizamiento\\taller_deslizamientos\\modelo\\Prithvi_100M.pt",
+    "device": "cpu",
+    "num_frames": 1
+  },
+  "configuration_frozen_utc": "2026-11-17T23:43:40.367336+00:00"
+}

@@ -1,0 +1,69 @@
+{
+  "candidates": {
+    "patch_occupancy_005": {
+      "candidate": "patch_occupancy_005",
+      "threshold": 0.55,
+      "iou": 0.1320937583884247,
+      "f1": 0.2062895846204463,
+      "precision": 0.15343361066017316,
+      "recall": 0.4746612227220157,
+      "defined_f1": 20
+    },
+    "patch_occupancy_010": {
+      "candidate": "patch_occupancy_010",
+      "threshold": 0.55,
+      "iou": 0.161997521467038,
+      "f1": 0.24963709613970012,
+      "precision": 0.19041655724789916,
+      "recall": 0.4171427001844947,
+      "defined_f1": 17
+    },
+    "patch_occupancy_020": {
+      "candidate": "patch_occupancy_020",
+      "threshold": 0.45,
+      "iou": 0.1410686691819608,
+      "f1": 0.22091436604000908,
+      "precision": 0.19603630514705883,
+      "recall": 0.3668338495984763,
+      "defined_f1": 17
+    },
+    "dense_prithvi_optical": {
+      "candidate": "dense_prithvi_optical",
+      "threshold": 0.55,
+      "iou": 0.24029358679596033,
+      "f1": 0.3370821385734556,
+      "precision": 0.34092241676775265,
+      "recall": 0.6362927462256887,
+      "defined_f1": 22
+    },
+    "dense_optical_only": {
+      "candidate": "dense_optical_only",
+      "threshold": 0.75,
+      "iou": 0.18054300811765847,
+      "f1": 0.2689061438042832,
+      "precision": 0.2501528975647261,
+      "recall": 0.6391143089381037,
+      "defined_f1": 24
+    }
+  },
+  "selected": {
+    "candidate": "dense_prithvi_optical",
+    "threshold": 0.55,
+    "iou": 0.24029358679596033,
+    "f1": 0.3370821385734556,
+    "precision": 0.34092241676775265,
+    "recall": 0.6362927462256887,
+    "defined_f1": 22
+  },
+  "control": {
+    "candidate": "dense_optical_only",
+    "threshold": 0.75,
+    "iou": 0.18054300811765847,
+    "f1": 0.2689061438042832,
+    "precision": 0.2501528975647261,
+    "recall": 0.6391143089381037,
+    "defined_f1": 24
+  },
+  "frozen_utc": "2026-11-17T23:46:19.117689+00:00",
+  "status": "Extensiones exploratorias; cambian objetivos o unidad de predicción del flujo guía. Conservar el piloto y solicitar aceptación docente para usarlas como método principal."
+}

@@ -1,0 +1,19 @@
+{
+  "selection_sha256": "34b2c2c74f284d2d61eb4b5db1d62f51510b379d08800ca5dd8ad00163a5e0e5",
+  "protocol_sha256": "d3819e0e102124716a9bc8e78e3450af9197915a6c315110e28da94629307d39",
+  "split_sizes": {
+    "train": 96,
+    "validation": 24,
+    "test": 32
+  },
+  "threshold": 0.1,
+  "teacher_status": "Ampliación complementaria pendiente de aceptación del tamaño de subconjunto y confirmación de canales, escala, normalización y pesos",
+  "model": {
+    "repo": "ibm-nasa-geospatial/Prithvi-EO-1.0-100M",
+    "revision": "7b231fe5b0684e2ddd40c967fbc02e225ef77dc6",
+    "checkpoint": "C:\\Users\\Cgalv\\Desktop\\github repositories\\prithvi-deslizamiento\\taller_deslizamientos\\modelo\\Prithvi_100M.pt",
+    "device": "cpu",
+    "num_frames": 1
+  },
+  "limitations": "Independencia por archivo y partición del espejo; sin metadatos suficientes para acreditar independencia por evento o región. Nuevas escenas de test respecto al piloto, sin garantía de dominio independiente."
+}

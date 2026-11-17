@@ -1,7 +1,7 @@
 {
   "task": "deslizamientos",
   "source": "https://huggingface.co/datasets/sasmit545/Landslide4sense",
-  "note": "Subconjunto por orden, no por desempeño; train/test según proveedor. En cultivos, validation se usa como evaluación sin ajustar decisiones.",
+  "note": "Subconjunto por orden, no por desempeÃ±o; train/test segÃºn proveedor. En cultivos, validation se usa como evaluaciÃ³n sin ajustar decisiones.",
   "samples": [
     {
       "split": "train",

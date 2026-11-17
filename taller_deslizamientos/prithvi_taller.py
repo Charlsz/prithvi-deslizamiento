@@ -14,7 +14,7 @@ SOURCES = {
 }
 
 def save_json(path, data):
-    Path(path).write_text(json.dumps(data, indent=2, ensure_ascii=False))
+    Path(path).write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
 
 def sha256(path):
     h=hashlib.sha256()
@@ -130,7 +130,7 @@ def download_flood(root,ntrain,ntest):
 def download_landslide(root,ntrain,ntest):
     from huggingface_hub import HfApi,hf_hub_download
     repo='sasmit545/Landslide4sense'; api=HfApi()
-    rev=api.dataset_info(repo).sha
+    rev='8508a55feceb5653a085d6be64ef9217710f7c00' # revisión de los datos del piloto
     names=api.list_repo_files(repo,repo_type='dataset',revision=rev)
     result={}
     for split,n in [('train',ntrain),('test',ntest)]:
@@ -195,7 +195,7 @@ def read_sample(task, image_path, label_path, crop_layout='CT',side=224):
             im=np.asarray(f[key],dtype=np.float32)
         if im.shape[-1]==14:im=im.transpose(2,0,1)
         if im.shape[0]!=14:raise ValueError('Se esperaban 14 canales Landslide4Sense.')
-        im=im[[1,2,3,8,10,11]][:,None] # B02 B03 B04 B8A B11 B12; excluye relieve
+        im=im[[1,2,3,8,10,11]][:,None] # selección docente; identidad de B8A pendiente de confirmar
         with h5py.File(label_path,'r') as f:
             if 'mask' not in f:raise RuntimeError('No existe la clave mask en la referencia.')
             label=np.asarray(f['mask']).squeeze().astype(np.int64)

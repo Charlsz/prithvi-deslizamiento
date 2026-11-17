@@ -1,0 +1,11 @@
+{
+  "train_patch_targets": {
+    "0": 256
+  },
+  "max_train_positive_fraction": 0.3984375,
+  "train_test_duplicate_images": false,
+  "metadata": "HDF5 sin atributos de fecha, CRS, geotransformación ni identificador de evento; no se acredita independencia por evento.",
+  "channel_contract": "Selección docente [1,2,3,8,10,11]. La descripción pública de 12 bandas no identifica inequívocamente B8A; pendiente confirmación docente.",
+  "teacher_confirmation": "Pendiente de evidencia",
+  "interpretation": "La falta de clase positiva en la cabeza impide evaluar la capacidad discriminativa de Prithvi para deslizamientos."
+}

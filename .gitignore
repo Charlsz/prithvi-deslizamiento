@@ -10,3 +10,8 @@ taller_deslizamientos/*.zip
 *.pt
 *.zip
 .cache/
+tmp/
+experimentos/**/datos/
+experimentos/**/cache/
+*.joblib
+reproducciones/

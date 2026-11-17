@@ -1,4 +1,4 @@
-# Grupo 2 — Detección de deslizamientos con Prithvi
+# Grupo 2 - Detección de deslizamientos con Prithvi
 
 Trabajo del curso de Inteligencia Artificial (profesor Eduardo Enrique Zurek Varela).  
 Segmentación binaria de deslizamientos con Landslide4Sense, encoder Prithvi congelado y Random Forest por parches.

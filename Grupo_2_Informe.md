@@ -1,4 +1,4 @@
-# Grupo 2 — Detección de deslizamientos de tierra con Prithvi
+# Grupo 2 - Detección de deslizamientos de tierra con Prithvi
 
 **Curso:** Inteligencia Artificial  
 **Profesor:** Eduardo Enrique Zurek Varela  
@@ -125,7 +125,7 @@ La conclusión responsable es que este piloto demuestra el flujo experimental y 
 
 [2] NASA IMPACT, “HLS Foundation Models,” GitHub repository. [Online]. Available: https://github.com/NASA-IMPACT/hls-foundation-os
 
-[3] IBM–NASA Geospatial, “Prithvi-EO-1.0-100M,” Hugging Face. [Online]. Available: https://huggingface.co/ibm-nasa-geospatial/Prithvi-EO-1.0-100M
+[3] IBM-NASA Geospatial, “Prithvi-EO-1.0-100M,” Hugging Face. [Online]. Available: https://huggingface.co/ibm-nasa-geospatial/Prithvi-EO-1.0-100M
 
 [4] C. J. Stewart et al., “TerraTorch: The geospatial foundation models toolkit,” arXiv:2503.20563, 2025. [Online]. Available: https://arxiv.org/abs/2503.20563
 

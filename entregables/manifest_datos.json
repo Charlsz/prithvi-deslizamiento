@@ -1,0 +1,49 @@
+{
+  "task": "deslizamientos",
+  "source": "https://huggingface.co/datasets/sasmit545/Landslide4sense",
+  "note": "Subconjunto por orden, no por desempeño; train/test según proveedor. En cultivos, validation se usa como evaluación sin ajustar decisiones.",
+  "samples": [
+    {
+      "split": "train",
+      "image": "C:\\Users\\Cgalv\\Desktop\\github repositories\\prithvi-deslizamiento\\taller_deslizamientos\\datos\\images\\train\\image_1.h5",
+      "label": "C:\\Users\\Cgalv\\Desktop\\github repositories\\prithvi-deslizamiento\\taller_deslizamientos\\datos\\annotations\\train\\mask_1.h5",
+      "image_sha256": "05933f459b84368f046a6dacf4204528b470718754dd617dfb60755de50ecb6d",
+      "label_sha256": "5ab8737ab1c08d51ace62c5d02a21b78944baf6dbc6f942f71cc07696319f8b6"
+    },
+    {
+      "split": "train",
+      "image": "C:\\Users\\Cgalv\\Desktop\\github repositories\\prithvi-deslizamiento\\taller_deslizamientos\\datos\\images\\train\\image_10.h5",
+      "label": "C:\\Users\\Cgalv\\Desktop\\github repositories\\prithvi-deslizamiento\\taller_deslizamientos\\datos\\annotations\\train\\mask_10.h5",
+      "image_sha256": "8c9139e1d6f4eb064da38da2349e11384bcc80f9af8218454fca1baa9a8dc1ee",
+      "label_sha256": "fc21e7ac2e5f0ae4551a97f9f97bd5d996eef7c6aedcbc312e15691b19be1bf0"
+    },
+    {
+      "split": "train",
+      "image": "C:\\Users\\Cgalv\\Desktop\\github repositories\\prithvi-deslizamiento\\taller_deslizamientos\\datos\\images\\train\\image_100.h5",
+      "label": "C:\\Users\\Cgalv\\Desktop\\github repositories\\prithvi-deslizamiento\\taller_deslizamientos\\datos\\annotations\\train\\mask_100.h5",
+      "image_sha256": "7b648b30721a99d344069dd7aae8aa795dc4f6495ef4d3b7b47ed2c644e70555",
+      "label_sha256": "9be5ecdda01899fa930370af990c756db558fb569fa14daf63dc938ba971da73"
+    },
+    {
+      "split": "train",
+      "image": "C:\\Users\\Cgalv\\Desktop\\github repositories\\prithvi-deslizamiento\\taller_deslizamientos\\datos\\images\\train\\image_1000.h5",
+      "label": "C:\\Users\\Cgalv\\Desktop\\github repositories\\prithvi-deslizamiento\\taller_deslizamientos\\datos\\annotations\\train\\mask_1000.h5",
+      "image_sha256": "7ddc95e5f23aeb20aa282b8e8324f260ecaac37251481c2b86b933afc98968f4",
+      "label_sha256": "57c57f100001388383dbc59625d562df29149f322b5e3dad30367cf240f519a2"
+    },
+    {
+      "split": "test",
+      "image": "C:\\Users\\Cgalv\\Desktop\\github repositories\\prithvi-deslizamiento\\taller_deslizamientos\\datos\\images\\test\\image_1.h5",
+      "label": "C:\\Users\\Cgalv\\Desktop\\github repositories\\prithvi-deslizamiento\\taller_deslizamientos\\datos\\annotations\\test\\mask_1.h5",
+      "image_sha256": "ab6248004ab39f1e3eeb4d0cc3f02931d2e4243f2ca5976a579ed535960d2109",
+      "label_sha256": "26ec86ca74edea2bc4f966818298085cda80f422cf21e6126feab7948956b9da"
+    },
+    {
+      "split": "test",
+      "image": "C:\\Users\\Cgalv\\Desktop\\github repositories\\prithvi-deslizamiento\\taller_deslizamientos\\datos\\images\\test\\image_10.h5",
+      "label": "C:\\Users\\Cgalv\\Desktop\\github repositories\\prithvi-deslizamiento\\taller_deslizamientos\\datos\\annotations\\test\\mask_10.h5",
+      "image_sha256": "677f06f8ddd5cd8cec7c65021b438d77e2bad8e182c499f773bd3e31ca35d6c8",
+      "label_sha256": "a6d44bbaa4c65ca92a1abf0069ef3babd48b3d9976519c2dc78d6ebafa4d35f9"
+    }
+  ]
+}

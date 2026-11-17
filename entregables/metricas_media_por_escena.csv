@@ -1,0 +1,3 @@
+method,iou,f1,precision,recall,escenas_definidas_iou,escenas_definidas_f1,escenas_definidas_precision,escenas_definidas_recall
+baseline,0.0,0.0,0.0,0.0,2,2,2,2
+prithvi_rf,0.0,0.0,0.0,0.0,2,2,2,2

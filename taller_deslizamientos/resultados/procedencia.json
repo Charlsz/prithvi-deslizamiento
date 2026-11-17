@@ -1,0 +1,33 @@
+{
+  "task": "deslizamientos",
+  "model": {
+    "repo": "ibm-nasa-geospatial/Prithvi-EO-1.0-100M",
+    "revision": "7b231fe5b0684e2ddd40c967fbc02e225ef77dc6",
+    "checkpoint": "C:\\Users\\Cgalv\\Desktop\\github repositories\\prithvi-deslizamiento\\taller_deslizamientos\\modelo\\Prithvi_100M.pt",
+    "device": "cpu",
+    "num_frames": 1
+  },
+  "ntrain": 4,
+  "ntest": 2,
+  "classes": [
+    0,
+    1
+  ],
+  "crop_layout": "CT",
+  "crop": "center224_pad_ignore",
+  "normalization": "train_zscore_by_band",
+  "head": "RandomForest, patch16 majority, frozen encoder",
+  "packages": {
+    "torch": "2.15.0+cpu",
+    "torchvision": "0.29.2",
+    "timm": "0.9.2",
+    "numpy": "2.4.6",
+    "scikit-learn": "1.9.1",
+    "rasterio": "1.4.4"
+  },
+  "execution": {
+    "environment": "local_windows",
+    "device": "cpu",
+    "workspace": "C:\\Users\\Cgalv\\Desktop\\github repositories\\prithvi-deslizamiento\\taller_deslizamientos"
+  }
+}

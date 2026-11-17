@@ -1,0 +1,58 @@
+{
+  "ok": true,
+  "missing": [],
+  "summary": [
+    {
+      "method": "prithvi_rf",
+      "f1_positive": 0.0,
+      "iou_positive": 0.0,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    {
+      "method": "baseline",
+      "f1_positive": 0.0,
+      "iou_positive": 0.0,
+      "precision": 0.0,
+      "recall": 0.0
+    }
+  ],
+  "mean_scene": [
+    {
+      "method": "baseline",
+      "iou": 0.0,
+      "f1": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "escenas_definidas_iou": 2,
+      "escenas_definidas_f1": 2,
+      "escenas_definidas_precision": 2,
+      "escenas_definidas_recall": 2
+    },
+    {
+      "method": "prithvi_rf",
+      "iou": 0.0,
+      "f1": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "escenas_definidas_iou": 2,
+      "escenas_definidas_f1": 2,
+      "escenas_definidas_precision": 2,
+      "escenas_definidas_recall": 2
+    }
+  ],
+  "majority_baseline": 0,
+  "train_distribution": [
+    {
+      "clase": 0,
+      "pixeles": 64617,
+      "fraccion": 0.9859771728515625
+    },
+    {
+      "clase": 1,
+      "pixeles": 919,
+      "fraccion": 0.0140228271484375
+    }
+  ],
+  "device": "cpu"
+}

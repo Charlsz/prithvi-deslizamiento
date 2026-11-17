@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+_tmp_*.py
+_tmp_*.txt
+taller_deslizamientos/modelo/
+taller_deslizamientos/datos/
+taller_deslizamientos/**/__pycache__/
+taller_deslizamientos/*.zip
+*.pt
+*.zip
+.cache/

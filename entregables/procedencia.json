@@ -3,7 +3,7 @@
   "model": {
     "repo": "ibm-nasa-geospatial/Prithvi-EO-1.0-100M",
     "revision": "7b231fe5b0684e2ddd40c967fbc02e225ef77dc6",
-    "checkpoint": "C:\\Users\\Cgalv\\Desktop\\github repositories\\prithvi-deslizamiento\\taller_deslizamientos\\modelo\\Prithvi_100M.pt",
+    "checkpoint": "Prithvi_100M.pt",
     "device": "cpu",
     "num_frames": 1
   },

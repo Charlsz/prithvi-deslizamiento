@@ -1,7 +1,0 @@
-split,image,mask,valid,positive,ignored,positive_fraction,positive_bbox
-train,image_1.h5,mask_1.h5,16384,405,33792,0.02471923828125,"[0, 102, 78, 127]"
-train,image_10.h5,mask_10.h5,16384,0,33792,0.0,absent
-train,image_100.h5,mask_100.h5,16384,479,33792,0.02923583984375,"[26, 0, 127, 119]"
-train,image_1000.h5,mask_1000.h5,16384,35,33792,0.00213623046875,"[95, 109, 102, 114]"
-test,image_1.h5,mask_1.h5,16384,33,33792,0.00201416015625,"[83, 0, 127, 16]"
-test,image_10.h5,mask_10.h5,16384,13,33792,0.00079345703125,"[118, 123, 127, 127]"

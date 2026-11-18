@@ -1,9 +1,0 @@
-scene,image,case,pixels,example_row,example_column
-0,image_1.h5,TN,16351,63,111
-0,image_1.h5,FN,33,85,1
-0,image_1.h5,FP,0,-1,-1
-0,image_1.h5,TP,0,-1,-1
-1,image_10.h5,TN,16371,63,121
-1,image_10.h5,FN,13,121,126
-1,image_10.h5,FP,0,-1,-1
-1,image_10.h5,TP,0,-1,-1
